@@ -54,9 +54,3 @@ desktop.ini
 *.ntvs*
 *.njsproj
 *.sln
-
-# ===========================
-# Configuración de agentes IA
-# ===========================
-.github/
-/.playwright-mcp/
