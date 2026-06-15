@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { IMDHomePage } from '../pages/IMDHomePage';
 import { AdvancedSearchPage } from '../pages/AdvancedSearchPage';
 
-test('buscar celebridades nacidas hace exactamente 40 años y screenshot', async ({ page }) => {
+test.only('buscar celebridades nacidas hace exactamente 40 años y screenshot', async ({ page }) => {
 
     const home = new IMDHomePage(page);
     await home.goto('/');

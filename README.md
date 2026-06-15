@@ -129,11 +129,11 @@ qa-imdb-challenge/
 │   │   ├── GalleryPage.ts            # Galería de fotos
 │   │   └── AdvancedSearchPage.ts     # Búsqueda avanzada (Born today)
 │   └── ui/
-│       ├── TC01-nicolas-cage.spec.ts
-│       ├── TC02-box-office-rating.spec.ts
-│       ├── TC03-breaking-bad-photos.spec.ts
-│       ├── TC04-born-yesterday.spec.ts
-│       └── TC05-born-today-40-years.spec.ts
+│       ├── TC01.spec.ts
+│       ├── TC02.spec.ts
+│       ├── TC03.spec.ts
+│       ├── TC04.spec.ts
+│       └── TC05.spec.ts
 ├── cypress.config.js
 ├── playwright.config.ts
 ├── tsconfig.json

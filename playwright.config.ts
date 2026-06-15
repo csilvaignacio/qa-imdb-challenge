@@ -7,6 +7,10 @@ export default defineConfig({
   workers: 1,
   reporter: 'html',
   use: {
+    launchOptions: {
+        args: ['--start-maximized'],
+    },
+    viewport: null, 
     actionTimeout: 10000,
     navigationTimeout: 15000,
     baseURL: 'https://www.imdb.com/',
@@ -24,12 +28,18 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+        name: 'chromium',
+        use: { 
+            browserName: 'chromium',
+            viewport: null,
+        },
     },
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+        name: 'firefox',
+        use: { 
+            browserName: 'firefox',
+            viewport: null,
+        },
     },
-  ],
+],
 })
